@@ -1,0 +1,4 @@
+Scenario,Identity,Action,Trigger,Result
+Joiner,Sarah Ahmed,New hire as Radiology Nurse,Onboarding → HR CSV import or ITSM ticket,"Assign Business Role: Radiology Nurse → IT Roles → Provision HIS_ViewLabs, AD_BasicAccess"
+Mover,Sarah Ahmed,Transfers from Radiology Nurse to ER Nurse,Department change in authoritative source,"Revoke Radiology Nurse roles → Assign ER Nurse roles → Provision HIS_ERAccess, AD_ERGroup"
+Leaver,Sarah Ahmed,Resignation / Termination,HR updates status = Terminated,"Deprovision all access, mark Identity inactive"

@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Roles>
+  <Role>
+    <Name>Admin Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Admin Clerk</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_AdminGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Admin Supervisor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Admin Supervisor</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_AdminGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Courier_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Courier</Description>
+  </Role>
+  <Role>
+    <Name>Driver_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Driver</Description>
+  </Role>
+  <Role>
+    <Name>Front Desk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Front Desk</Description>
+  </Role>
+  <Role>
+    <Name>Hospital Director_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Hospital Director</Description>
+  </Role>
+  <Role>
+    <Name>Operations Analyst_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Operations Analyst</Description>
+  </Role>
+  <Role>
+    <Name>Receptionist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Receptionist</Description>
+  </Role>
+  <Role>
+    <Name>Scheduling Officer_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Scheduling Officer</Description>
+  </Role>
+  <Role>
+    <Name>Secretary_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Secretary</Description>
+  </Role>
+  <Role>
+    <Name>Cleaner_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Cleaner</Description>
+  </Role>
+  <Role>
+    <Name>ER Doctor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for ER Doctor</Description>
+    <IncludedRoles>
+      <IncludedRole>Time Tracking_SupervisorApproval</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>ER Nurse_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for ER Nurse</Description>
+    <IncludedRoles>
+      <IncludedRole>Time Tracking_SupervisorApproval</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>ER Supervisor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for ER Supervisor</Description>
+    <IncludedRoles>
+      <IncludedRole>Time Tracking_SupervisorApproval</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Head Nurse_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Head Nurse</Description>
+  </Role>
+  <Role>
+    <Name>Paramedic_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Paramedic</Description>
+  </Role>
+  <Role>
+    <Name>Resident_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Resident</Description>
+  </Role>
+  <Role>
+    <Name>Shift Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Shift Manager</Description>
+  </Role>
+  <Role>
+    <Name>Unit Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Unit Clerk</Description>
+  </Role>
+  <Role>
+    <Name>AR/AP Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for AR/AP Clerk</Description>
+  </Role>
+  <Role>
+    <Name>Accountant_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Accountant</Description>
+  </Role>
+  <Role>
+    <Name>Audit Officer_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Audit Officer</Description>
+  </Role>
+  <Role>
+    <Name>Billing Specialist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Billing Specialist</Description>
+  </Role>
+  <Role>
+    <Name>Cashier_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Cashier</Description>
+  </Role>
+  <Role>
+    <Name>Compliance Lead_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Compliance Lead</Description>
+  </Role>
+  <Role>
+    <Name>Finance Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Finance Clerk</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_FinanceGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Finance Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Finance Manager</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_FinanceGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Financial Analyst_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Financial Analyst</Description>
+  </Role>
+  <Role>
+    <Name>Payroll Officer_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Payroll Officer</Description>
+  </Role>
+  <Role>
+    <Name>Compensation Analyst_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Compensation Analyst</Description>
+  </Role>
+  <Role>
+    <Name>Data Specialist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Data Specialist</Description>
+  </Role>
+  <Role>
+    <Name>HR Assistant_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for HR Assistant</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_HRGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>HR Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for HR Clerk</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_HRGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>HR Director_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for HR Director</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_HRGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>HR Generalist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for HR Generalist</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_HRGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>HRBP_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for HRBP</Description>
+  </Role>
+  <Role>
+    <Name>Intern_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Intern</Description>
+  </Role>
+  <Role>
+    <Name>Recruiter_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Recruiter</Description>
+  </Role>
+  <Role>
+    <Name>Training Coordinator_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Training Coordinator</Description>
+    <IncludedRoles>
+      <IncludedRole>Learning Management_AssignTraining</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Application Support_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Application Support</Description>
+  </Role>
+  <Role>
+    <Name>DBA_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for DBA</Description>
+  </Role>
+  <Role>
+    <Name>Developer_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Developer</Description>
+  </Role>
+  <Role>
+    <Name>Help Desk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Help Desk</Description>
+  </Role>
+  <Role>
+    <Name>IT Coordinator_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for IT Coordinator</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_ITGroup</IncludedRole>
+      <IncludedRole>HIS_UpdateVitals</IncludedRole>
+      <IncludedRole>HIS_WritePrescription</IncludedRole>
+      <IncludedRole>PACS_EditReport</IncludedRole>
+      <IncludedRole>Time Tracking_EditTimeCard</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>IT Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for IT Manager</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_ITGroup</IncludedRole>
+      <IncludedRole>HIS_UpdateVitals</IncludedRole>
+      <IncludedRole>HIS_WritePrescription</IncludedRole>
+      <IncludedRole>PACS_EditReport</IncludedRole>
+      <IncludedRole>Time Tracking_EditTimeCard</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Network Engineer_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Network Engineer</Description>
+  </Role>
+  <Role>
+    <Name>Security Analyst_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Security Analyst</Description>
+  </Role>
+  <Role>
+    <Name>Support Technician_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Support Technician</Description>
+  </Role>
+  <Role>
+    <Name>System Admin_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for System Admin</Description>
+    <IncludedRoles>
+      <IncludedRole>Email System_AccessSharedMailbox</IncludedRole>
+      <IncludedRole>Email System_CreateDistributionList</IncludedRole>
+      <IncludedRole>Email System_SendMail</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Care Aide_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Care Aide</Description>
+  </Role>
+  <Role>
+    <Name>Clinical Educator_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Clinical Educator</Description>
+  </Role>
+  <Role>
+    <Name>Housekeeping_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Housekeeping</Description>
+  </Role>
+  <Role>
+    <Name>Phlebotomist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Phlebotomist</Description>
+  </Role>
+  <Role>
+    <Name>Resident Doctor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Resident Doctor</Description>
+  </Role>
+  <Role>
+    <Name>Social Worker_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Social Worker</Description>
+  </Role>
+  <Role>
+    <Name>Ward Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Ward Manager</Description>
+  </Role>
+  <Role>
+    <Name>Ward Nurse_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Ward Nurse</Description>
+  </Role>
+  <Role>
+    <Name>Ward Supervisor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Ward Supervisor</Description>
+  </Role>
+  <Role>
+    <Name>Bio Technician_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Bio Technician</Description>
+  </Role>
+  <Role>
+    <Name>Lab Assistant_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Lab Assistant</Description>
+    <IncludedRoles>
+      <IncludedRole>HIS_ViewLabs</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Lab Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Lab Manager</Description>
+    <IncludedRoles>
+      <IncludedRole>HIS_ViewLabs</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Lab Supervisor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Lab Supervisor</Description>
+    <IncludedRoles>
+      <IncludedRole>HIS_ViewLabs</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Lab Technician_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Lab Technician</Description>
+    <IncludedRoles>
+      <IncludedRole>HIS_ViewLabs</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Microbiologist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Microbiologist</Description>
+  </Role>
+  <Role>
+    <Name>Pathologist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Pathologist</Description>
+  </Role>
+  <Role>
+    <Name>Specimen Collector_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Specimen Collector</Description>
+  </Role>
+  <Role>
+    <Name>Transporter_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Transporter</Description>
+  </Role>
+  <Role>
+    <Name>Clinic Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Clinic Manager</Description>
+  </Role>
+  <Role>
+    <Name>Clinic Nurse_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Clinic Nurse</Description>
+  </Role>
+  <Role>
+    <Name>Data Entry_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Data Entry</Description>
+  </Role>
+  <Role>
+    <Name>General Practitioner_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for General Practitioner</Description>
+  </Role>
+  <Role>
+    <Name>Medical Assistant_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Medical Assistant</Description>
+  </Role>
+  <Role>
+    <Name>Patient Liaison_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Patient Liaison</Description>
+    <IncludedRoles>
+      <IncludedRole>HIS_PatientCheckIn</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Security_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Security</Description>
+  </Role>
+  <Role>
+    <Name>Supervisor_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Supervisor</Description>
+    <IncludedRoles>
+      <IncludedRole>Time Tracking_SupervisorApproval</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Admin Assistant_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Admin Assistant</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_AdminGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Billing Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Billing Clerk</Description>
+  </Role>
+  <Role>
+    <Name>Compliance Officer_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Compliance Officer</Description>
+  </Role>
+  <Role>
+    <Name>Inventory Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Inventory Manager</Description>
+  </Role>
+  <Role>
+    <Name>Logistics_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Logistics</Description>
+  </Role>
+  <Role>
+    <Name>Pharmacist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Pharmacist</Description>
+  </Role>
+  <Role>
+    <Name>Pharmacy Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Pharmacy Manager</Description>
+  </Role>
+  <Role>
+    <Name>Pharmacy Tech_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Pharmacy Tech</Description>
+  </Role>
+  <Role>
+    <Name>CT Specialist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for CT Specialist</Description>
+    <IncludedRoles>
+      <IncludedRole>Active Directory_AdminGroup</IncludedRole>
+      <IncludedRole>Active Directory_BasicAccess</IncludedRole>
+      <IncludedRole>Active Directory_FinanceGroup</IncludedRole>
+      <IncludedRole>Active Directory_HRGroup</IncludedRole>
+      <IncludedRole>Active Directory_ITGroup</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Clerk_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Clerk</Description>
+  </Role>
+  <Role>
+    <Name>Department Head_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Department Head</Description>
+  </Role>
+  <Role>
+    <Name>Imaging Assistant_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Imaging Assistant</Description>
+  </Role>
+  <Role>
+    <Name>MRI Operator_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for MRI Operator</Description>
+  </Role>
+  <Role>
+    <Name>PACS Coordinator_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for PACS Coordinator</Description>
+    <IncludedRoles>
+      <IncludedRole>PACS_EditReport</IncludedRole>
+      <IncludedRole>PACS_ReadImages</IncludedRole>
+      <IncludedRole>PACS_UploadScan</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Radiologist_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Radiologist</Description>
+  </Role>
+  <Role>
+    <Name>Radiology Manager_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Radiology Manager</Description>
+  </Role>
+  <Role>
+    <Name>Radiology Technician_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Radiology Technician</Description>
+  </Role>
+  <Role>
+    <Name>Trainee Tech_Access</Name>
+    <Type>Business</Type>
+    <Description>Business Role for Trainee Tech</Description>
+  </Role>
+</Roles>

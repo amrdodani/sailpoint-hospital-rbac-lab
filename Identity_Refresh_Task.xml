@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TaskDefinition>
+  <Name>Hospital_IdentityRefresh</Name>
+  <Type>Identity Refresh</Type>
+  <Description>Refreshes identities and evaluates role assignments.</Description>
+  <Arguments>
+    <Map key="identityRefreshType"/>
+    <Map>full</Map>
+  </Arguments>
+</TaskDefinition>

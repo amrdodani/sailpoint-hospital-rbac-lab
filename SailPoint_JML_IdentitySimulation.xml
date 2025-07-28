@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Identities>
+  <Identity>
+    <Name>AdminClerk_Administration</Name>
+    <DisplayName>Admin Clerk</DisplayName>
+    <Department>Administration</Department>
+    <Title>Admin Clerk</Title>
+    <Email>adminclerk_administration@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Admin Clerk_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Admin Clerk</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Administration</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>Cleaner_Emergency</Name>
+    <DisplayName>Cleaner</DisplayName>
+    <Department>Emergency</Department>
+    <Title>Cleaner</Title>
+    <Email>cleaner_emergency@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Cleaner_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Cleaner</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Emergency</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>AR/APClerk_Finance</Name>
+    <DisplayName>AR/AP Clerk</DisplayName>
+    <Department>Finance</Department>
+    <Title>AR/AP Clerk</Title>
+    <Email>ar/apclerk_finance@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>AR/AP Clerk_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>AR/AP Clerk</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Finance</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>CompensationAnalyst_HumanResources</Name>
+    <DisplayName>Compensation Analyst</DisplayName>
+    <Department>Human Resources</Department>
+    <Title>Compensation Analyst</Title>
+    <Email>compensationanalyst_humanresources@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Compensation Analyst_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Compensation Analyst</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Human Resources</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>ApplicationSupport_IT</Name>
+    <DisplayName>Application Support</DisplayName>
+    <Department>IT</Department>
+    <Title>Application Support</Title>
+    <Email>applicationsupport_it@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Application Support_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Application Support</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>IT</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>CareAide_InpatientWard</Name>
+    <DisplayName>Care Aide</DisplayName>
+    <Department>Inpatient Ward</Department>
+    <Title>Care Aide</Title>
+    <Email>careaide_inpatientward@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Care Aide_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Care Aide</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Inpatient Ward</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>BioTechnician_Laboratory</Name>
+    <DisplayName>Bio Technician</DisplayName>
+    <Department>Laboratory</Department>
+    <Title>Bio Technician</Title>
+    <Email>biotechnician_laboratory@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Bio Technician_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Bio Technician</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Laboratory</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>ClinicManager_OutpatientClinic</Name>
+    <DisplayName>Clinic Manager</DisplayName>
+    <Department>Outpatient Clinic</Department>
+    <Title>Clinic Manager</Title>
+    <Email>clinicmanager_outpatientclinic@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Clinic Manager_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Clinic Manager</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Outpatient Clinic</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>AdminAssistant_Pharmacy</Name>
+    <DisplayName>Admin Assistant</DisplayName>
+    <Department>Pharmacy</Department>
+    <Title>Admin Assistant</Title>
+    <Email>adminassistant_pharmacy@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>Admin Assistant_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>Admin Assistant</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Pharmacy</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+  <Identity>
+    <Name>CTSpecialist_Radiology</Name>
+    <DisplayName>CT Specialist</DisplayName>
+    <Department>Radiology</Department>
+    <Title>CT Specialist</Title>
+    <Email>ctspecialist_radiology@hospital.demo</Email>
+    <Status>Active</Status>
+    <AssignedRoles>
+      <Role>CT Specialist_Access</Role>
+    </AssignedRoles>
+    <LifecycleEvent>
+      <Type>Move</Type>
+      <OldTitle>CT Specialist</OldTitle>
+      <NewTitle>General Support</NewTitle>
+      <OldDepartment>Radiology</OldDepartment>
+      <NewDepartment>IT</NewDepartment>
+    </LifecycleEvent>
+    <LifecycleEvent>
+      <Type>Terminate</Type>
+      <EffectiveDate>2025-12-01</EffectiveDate>
+    </LifecycleEvent>
+  </Identity>
+</Identities>

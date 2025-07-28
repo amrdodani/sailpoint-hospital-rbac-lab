@@ -1,0 +1,9 @@
+Task,Start,Duration,End
+Define IT Roles,2025-07-28,3,2025-07-31
+Build Business Roles,2025-07-31,2,2025-08-02
+Map Organization Roles,2025-08-02,2,2025-08-04
+Write Assignment Rules,2025-08-04,2,2025-08-06
+Create XMLs & Validate,2025-08-06,2,2025-08-08
+Staging Deployment,2025-08-08,3,2025-08-11
+Testing & Refinement,2025-08-11,3,2025-08-14
+Production Rollout,2025-08-14,2,2025-08-16

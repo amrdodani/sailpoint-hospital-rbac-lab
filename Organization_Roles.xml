@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Roles>
+  <Role>
+    <Name>Emergency_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Emergency Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Cleaner_Access</IncludedRole>
+      <IncludedRole>ER Doctor_Access</IncludedRole>
+      <IncludedRole>ER Nurse_Access</IncludedRole>
+      <IncludedRole>ER Supervisor_Access</IncludedRole>
+      <IncludedRole>Head Nurse_Access</IncludedRole>
+      <IncludedRole>Paramedic_Access</IncludedRole>
+      <IncludedRole>Receptionist_Access</IncludedRole>
+      <IncludedRole>Resident_Access</IncludedRole>
+      <IncludedRole>Shift Manager_Access</IncludedRole>
+      <IncludedRole>Unit Clerk_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Radiology_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Radiology Department</Description>
+    <IncludedRoles>
+      <IncludedRole>CT Specialist_Access</IncludedRole>
+      <IncludedRole>Clerk_Access</IncludedRole>
+      <IncludedRole>Department Head_Access</IncludedRole>
+      <IncludedRole>Imaging Assistant_Access</IncludedRole>
+      <IncludedRole>MRI Operator_Access</IncludedRole>
+      <IncludedRole>PACS Coordinator_Access</IncludedRole>
+      <IncludedRole>Radiologist_Access</IncludedRole>
+      <IncludedRole>Radiology Manager_Access</IncludedRole>
+      <IncludedRole>Radiology Technician_Access</IncludedRole>
+      <IncludedRole>Trainee Tech_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Outpatient Clinic_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Outpatient Clinic Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Clinic Manager_Access</IncludedRole>
+      <IncludedRole>Clinic Nurse_Access</IncludedRole>
+      <IncludedRole>Data Entry_Access</IncludedRole>
+      <IncludedRole>General Practitioner_Access</IncludedRole>
+      <IncludedRole>Intern_Access</IncludedRole>
+      <IncludedRole>Medical Assistant_Access</IncludedRole>
+      <IncludedRole>Patient Liaison_Access</IncludedRole>
+      <IncludedRole>Receptionist_Access</IncludedRole>
+      <IncludedRole>Security_Access</IncludedRole>
+      <IncludedRole>Supervisor_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Inpatient Ward_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Inpatient Ward Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Care Aide_Access</IncludedRole>
+      <IncludedRole>Clinical Educator_Access</IncludedRole>
+      <IncludedRole>Housekeeping_Access</IncludedRole>
+      <IncludedRole>Phlebotomist_Access</IncludedRole>
+      <IncludedRole>Resident Doctor_Access</IncludedRole>
+      <IncludedRole>Social Worker_Access</IncludedRole>
+      <IncludedRole>Unit Clerk_Access</IncludedRole>
+      <IncludedRole>Ward Manager_Access</IncludedRole>
+      <IncludedRole>Ward Nurse_Access</IncludedRole>
+      <IncludedRole>Ward Supervisor_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Pharmacy_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Pharmacy Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Admin Assistant_Access</IncludedRole>
+      <IncludedRole>Billing Clerk_Access</IncludedRole>
+      <IncludedRole>Cashier_Access</IncludedRole>
+      <IncludedRole>Compliance Officer_Access</IncludedRole>
+      <IncludedRole>Inventory Manager_Access</IncludedRole>
+      <IncludedRole>Logistics_Access</IncludedRole>
+      <IncludedRole>Pharmacist_Access</IncludedRole>
+      <IncludedRole>Pharmacy Manager_Access</IncludedRole>
+      <IncludedRole>Pharmacy Tech_Access</IncludedRole>
+      <IncludedRole>Supervisor_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Laboratory_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Laboratory Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Bio Technician_Access</IncludedRole>
+      <IncludedRole>Cleaner_Access</IncludedRole>
+      <IncludedRole>Lab Assistant_Access</IncludedRole>
+      <IncludedRole>Lab Manager_Access</IncludedRole>
+      <IncludedRole>Lab Supervisor_Access</IncludedRole>
+      <IncludedRole>Lab Technician_Access</IncludedRole>
+      <IncludedRole>Microbiologist_Access</IncludedRole>
+      <IncludedRole>Pathologist_Access</IncludedRole>
+      <IncludedRole>Specimen Collector_Access</IncludedRole>
+      <IncludedRole>Transporter_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Finance_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Finance Department</Description>
+    <IncludedRoles>
+      <IncludedRole>AR/AP Clerk_Access</IncludedRole>
+      <IncludedRole>Accountant_Access</IncludedRole>
+      <IncludedRole>Audit Officer_Access</IncludedRole>
+      <IncludedRole>Billing Specialist_Access</IncludedRole>
+      <IncludedRole>Cashier_Access</IncludedRole>
+      <IncludedRole>Compliance Lead_Access</IncludedRole>
+      <IncludedRole>Finance Clerk_Access</IncludedRole>
+      <IncludedRole>Finance Manager_Access</IncludedRole>
+      <IncludedRole>Financial Analyst_Access</IncludedRole>
+      <IncludedRole>Payroll Officer_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Human Resources_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Human Resources Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Compensation Analyst_Access</IncludedRole>
+      <IncludedRole>Data Specialist_Access</IncludedRole>
+      <IncludedRole>HR Assistant_Access</IncludedRole>
+      <IncludedRole>HR Clerk_Access</IncludedRole>
+      <IncludedRole>HR Director_Access</IncludedRole>
+      <IncludedRole>HR Generalist_Access</IncludedRole>
+      <IncludedRole>HRBP_Access</IncludedRole>
+      <IncludedRole>Intern_Access</IncludedRole>
+      <IncludedRole>Recruiter_Access</IncludedRole>
+      <IncludedRole>Training Coordinator_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>IT_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for IT Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Application Support_Access</IncludedRole>
+      <IncludedRole>DBA_Access</IncludedRole>
+      <IncludedRole>Developer_Access</IncludedRole>
+      <IncludedRole>Help Desk_Access</IncludedRole>
+      <IncludedRole>IT Coordinator_Access</IncludedRole>
+      <IncludedRole>IT Manager_Access</IncludedRole>
+      <IncludedRole>Network Engineer_Access</IncludedRole>
+      <IncludedRole>Security Analyst_Access</IncludedRole>
+      <IncludedRole>Support Technician_Access</IncludedRole>
+      <IncludedRole>System Admin_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+  <Role>
+    <Name>Administration_OrgRole</Name>
+    <Type>Organization</Type>
+    <Description>Organization Role for Administration Department</Description>
+    <IncludedRoles>
+      <IncludedRole>Admin Clerk_Access</IncludedRole>
+      <IncludedRole>Admin Supervisor_Access</IncludedRole>
+      <IncludedRole>Courier_Access</IncludedRole>
+      <IncludedRole>Driver_Access</IncludedRole>
+      <IncludedRole>Front Desk_Access</IncludedRole>
+      <IncludedRole>Hospital Director_Access</IncludedRole>
+      <IncludedRole>Operations Analyst_Access</IncludedRole>
+      <IncludedRole>Receptionist_Access</IncludedRole>
+      <IncludedRole>Scheduling Officer_Access</IncludedRole>
+      <IncludedRole>Secretary_Access</IncludedRole>
+    </IncludedRoles>
+  </Role>
+</Roles>

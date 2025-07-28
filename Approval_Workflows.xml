@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ApprovalWorkflows>
+  <Workflow>
+    <Name>HIS_AccessApproval</Name>
+    <Description>Approval workflow for HIS access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+  <Workflow>
+    <Name>PACS_AccessApproval</Name>
+    <Description>Approval workflow for PACS access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+  <Workflow>
+    <Name>SAP_AccessApproval</Name>
+    <Description>Approval workflow for SAP access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+  <Workflow>
+    <Name>Active Directory_AccessApproval</Name>
+    <Description>Approval workflow for Active Directory access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+  <Workflow>
+    <Name>Email System_AccessApproval</Name>
+    <Description>Approval workflow for Email System access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+  <Workflow>
+    <Name>Time Tracking_AccessApproval</Name>
+    <Description>Approval workflow for Time Tracking access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+  <Workflow>
+    <Name>Learning Management_AccessApproval</Name>
+    <Description>Approval workflow for Learning Management access</Description>
+    <Trigger>AccessRequest</Trigger>
+    <Approver>Manager</Approver>
+    <BackupApprover>RoleOwner</BackupApprover>
+  </Workflow>
+</ApprovalWorkflows>

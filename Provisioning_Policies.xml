@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ProvisioningPolicies>
+  <ProvisioningPolicy>
+    <Application>HIS</Application>
+    <Name>HIS_Default_Provisioning</Name>
+    <Description>Provisioning policy for HIS</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+  <ProvisioningPolicy>
+    <Application>PACS</Application>
+    <Name>PACS_Default_Provisioning</Name>
+    <Description>Provisioning policy for PACS</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+  <ProvisioningPolicy>
+    <Application>SAP</Application>
+    <Name>SAP_Default_Provisioning</Name>
+    <Description>Provisioning policy for SAP</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+  <ProvisioningPolicy>
+    <Application>Active Directory</Application>
+    <Name>Active Directory_Default_Provisioning</Name>
+    <Description>Provisioning policy for Active Directory</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+  <ProvisioningPolicy>
+    <Application>Email System</Application>
+    <Name>Email System_Default_Provisioning</Name>
+    <Description>Provisioning policy for Email System</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+  <ProvisioningPolicy>
+    <Application>Time Tracking</Application>
+    <Name>Time Tracking_Default_Provisioning</Name>
+    <Description>Provisioning policy for Time Tracking</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+  <ProvisioningPolicy>
+    <Application>Learning Management</Application>
+    <Name>Learning Management_Default_Provisioning</Name>
+    <Description>Provisioning policy for Learning Management</Description>
+    <Attributes>
+      <Attribute>
+        <Name>username</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>email</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>department</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+      <Attribute>
+        <Name>title</Name>
+        <Type>string</Type>
+        <Required>true</Required>
+      </Attribute>
+    </Attributes>
+  </ProvisioningPolicy>
+</ProvisioningPolicies>

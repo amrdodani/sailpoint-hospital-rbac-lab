@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Roles>
+  <Role>
+    <Name>Active Directory_AdminGroup</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Active Directory_AdminGroup in Active Directory</Description>
+    <Entitlements>
+      <Entitlement>Active Directory_AdminGroup</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Active Directory_BasicAccess</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Active Directory_BasicAccess in Active Directory</Description>
+    <Entitlements>
+      <Entitlement>Active Directory_BasicAccess</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Active Directory_FinanceGroup</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Active Directory_FinanceGroup in Active Directory</Description>
+    <Entitlements>
+      <Entitlement>Active Directory_FinanceGroup</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Active Directory_HRGroup</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Active Directory_HRGroup in Active Directory</Description>
+    <Entitlements>
+      <Entitlement>Active Directory_HRGroup</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Active Directory_ITGroup</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Active Directory_ITGroup in Active Directory</Description>
+    <Entitlements>
+      <Entitlement>Active Directory_ITGroup</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Email System_AccessSharedMailbox</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Email System_AccessSharedMailbox in Email System</Description>
+    <Entitlements>
+      <Entitlement>Email System_AccessSharedMailbox</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Email System_CreateDistributionList</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Email System_CreateDistributionList in Email System</Description>
+    <Entitlements>
+      <Entitlement>Email System_CreateDistributionList</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Email System_SendMail</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Email System_SendMail in Email System</Description>
+    <Entitlements>
+      <Entitlement>Email System_SendMail</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>HIS_PatientCheckIn</Name>
+    <Type>IT</Type>
+    <Description>IT Role for HIS_PatientCheckIn in HIS</Description>
+    <Entitlements>
+      <Entitlement>HIS_PatientCheckIn</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>HIS_UpdateVitals</Name>
+    <Type>IT</Type>
+    <Description>IT Role for HIS_UpdateVitals in HIS</Description>
+    <Entitlements>
+      <Entitlement>HIS_UpdateVitals</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>HIS_ViewLabs</Name>
+    <Type>IT</Type>
+    <Description>IT Role for HIS_ViewLabs in HIS</Description>
+    <Entitlements>
+      <Entitlement>HIS_ViewLabs</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>HIS_WritePrescription</Name>
+    <Type>IT</Type>
+    <Description>IT Role for HIS_WritePrescription in HIS</Description>
+    <Entitlements>
+      <Entitlement>HIS_WritePrescription</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Learning Management_AssignTraining</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Learning Management_AssignTraining in Learning Management</Description>
+    <Entitlements>
+      <Entitlement>Learning Management_AssignTraining</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Learning Management_EnrollCourse</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Learning Management_EnrollCourse in Learning Management</Description>
+    <Entitlements>
+      <Entitlement>Learning Management_EnrollCourse</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Learning Management_TrackProgress</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Learning Management_TrackProgress in Learning Management</Description>
+    <Entitlements>
+      <Entitlement>Learning Management_TrackProgress</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>PACS_EditReport</Name>
+    <Type>IT</Type>
+    <Description>IT Role for PACS_EditReport in PACS</Description>
+    <Entitlements>
+      <Entitlement>PACS_EditReport</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>PACS_ReadImages</Name>
+    <Type>IT</Type>
+    <Description>IT Role for PACS_ReadImages in PACS</Description>
+    <Entitlements>
+      <Entitlement>PACS_ReadImages</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>PACS_UploadScan</Name>
+    <Type>IT</Type>
+    <Description>IT Role for PACS_UploadScan in PACS</Description>
+    <Entitlements>
+      <Entitlement>PACS_UploadScan</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>SAP_BudgetEntry</Name>
+    <Type>IT</Type>
+    <Description>IT Role for SAP_BudgetEntry in SAP</Description>
+    <Entitlements>
+      <Entitlement>SAP_BudgetEntry</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>SAP_InvoiceApproval</Name>
+    <Type>IT</Type>
+    <Description>IT Role for SAP_InvoiceApproval in SAP</Description>
+    <Entitlements>
+      <Entitlement>SAP_InvoiceApproval</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>SAP_ReadReports</Name>
+    <Type>IT</Type>
+    <Description>IT Role for SAP_ReadReports in SAP</Description>
+    <Entitlements>
+      <Entitlement>SAP_ReadReports</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Time Tracking_ClockIn</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Time Tracking_ClockIn in Time Tracking</Description>
+    <Entitlements>
+      <Entitlement>Time Tracking_ClockIn</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Time Tracking_EditTimeCard</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Time Tracking_EditTimeCard in Time Tracking</Description>
+    <Entitlements>
+      <Entitlement>Time Tracking_EditTimeCard</Entitlement>
+    </Entitlements>
+  </Role>
+  <Role>
+    <Name>Time Tracking_SupervisorApproval</Name>
+    <Type>IT</Type>
+    <Description>IT Role for Time Tracking_SupervisorApproval in Time Tracking</Description>
+    <Entitlements>
+      <Entitlement>Time Tracking_SupervisorApproval</Entitlement>
+    </Entitlements>
+  </Role>
+</Roles>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TaskDefinition>
+  <Name>Hospital_EntitlementAggregation</Name>
+  <Type>Entitlement Aggregation</Type>
+  <Description>Aggregates entitlements for all applications.</Description>
+  <Arguments>
+    <Map key="HIS_aggregation">true</Map>
+    <Map key="PACS_aggregation">true</Map>
+    <Map key="SAP_aggregation">true</Map>
+    <Map key="Active Directory_aggregation">true</Map>
+    <Map key="Email System_aggregation">true</Map>
+    <Map key="Time Tracking_aggregation">true</Map>
+    <Map key="Learning Management_aggregation">true</Map>
+  </Arguments>
+</TaskDefinition>
