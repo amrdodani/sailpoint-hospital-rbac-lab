@@ -1,12 +1,115 @@
-<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>SailPoint Hospital RBAC Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a2d9a66d3b.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #dfe6e9;
+    }
+    .section {
+      background: #fff;
+      color: #2c3e50;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .icon-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    .icon-box div {
+      background: #ecf0f1;
+      padding: 20px;
+      border-radius: 12px;
+      width: 200px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .icon-box i {
+      font-size: 2.5em;
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #1a252f;
+      color: #b2bec3;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #00cec9;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My SailPoint IdentityIQ Lab</h1>
-  <p>This is a simulation of full RBAC setup for a hospital using SailPoint IdentityIQ.</p>
+
+<header>
+  <h1><i class="fas fa-hospital-symbol"></i> SailPoint RBAC Lab</h1>
+  <p>A full simulation of hospital access governance with SailPoint IdentityIQ</p>
+</header>
+
+<section class="section">
+  <h2><i class="fas fa-network-wired"></i> Project Modules</h2>
+  <div class="icon-box">
+    <div>
+      <i class="fas fa-sitemap"></i>
+      <h3>Role Hierarchy</h3>
+      <p>IT, Business, and Organization Role Modeling</p>
+    </div>
+    <div>
+      <i class="fas fa-user-plus"></i>
+      <h3>JML Lifecycle</h3>
+      <p>Joiner–Mover–Leaver automation with rules</p>
+    </div>
+    <div>
+      <i class="fas fa-tasks"></i>
+      <h3>Provisioning</h3>
+      <p>Task-based identity lifecycle & workflows</p>
+    </div>
+    <div>
+      <i class="fas fa-database"></i>
+      <h3>AD Integration</h3>
+      <p>Mapping to Active Directory groups and apps</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Created by <a href="https://github.com/amrdodani" target="_blank">Amr Dodani</a> – GitHub Pages | © 2025
+</footer>
+
 </body>
 </html>
