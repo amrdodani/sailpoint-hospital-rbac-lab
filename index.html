@@ -36,30 +36,33 @@
       background: #fff;
       color: #2c3e50;
       padding: 40px 20px;
-      text-align: center;
     }
     .section h2 {
+      text-align: center;
       font-size: 2em;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
-    .icon-box {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 20px;
-    }
-    .icon-box div {
+    .module {
+      max-width: 900px;
+      margin: 0 auto 40px;
       background: #ecf0f1;
       padding: 20px;
-      border-radius: 12px;
-      width: 200px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    .icon-box i {
-      font-size: 2.5em;
+    .module h3 {
       color: #2980b9;
+      font-size: 1.5em;
       margin-bottom: 10px;
+    }
+    .module p {
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+    .module a {
+      color: #0984e3;
+      text-decoration: none;
+      font-weight: bold;
     }
     footer {
       background: #1a252f;
@@ -68,9 +71,8 @@
       padding: 20px;
       font-size: 0.9em;
     }
-    a {
-      color: #00cec9;
-      text-decoration: none;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -78,37 +80,62 @@
 
 <header>
   <h1><i class="fas fa-hospital-symbol"></i> SailPoint RBAC Lab</h1>
-  <p>A full simulation of hospital access governance with SailPoint IdentityIQ</p>
+  <p>A complete role-based access control simulation for a hospital using SailPoint IdentityIQ</p>
 </header>
 
 <section class="section">
   <h2><i class="fas fa-network-wired"></i> Project Modules</h2>
-  <div class="icon-box">
-    <div>
-      <i class="fas fa-sitemap"></i>
-      <h3>Role Hierarchy</h3>
-      <p>IT, Business, and Organization Role Modeling</p>
-    </div>
-    <div>
-      <i class="fas fa-user-plus"></i>
-      <h3>JML Lifecycle</h3>
-      <p>Joiner–Mover–Leaver automation with rules</p>
-    </div>
-    <div>
-      <i class="fas fa-tasks"></i>
-      <h3>Provisioning</h3>
-      <p>Task-based identity lifecycle & workflows</p>
-    </div>
-    <div>
-      <i class="fas fa-database"></i>
-      <h3>AD Integration</h3>
-      <p>Mapping to Active Directory groups and apps</p>
-    </div>
+
+  <div class="module">
+    <h3><i class="fas fa-sitemap"></i> Role Architecture</h3>
+    <p>Complete modeling of IT Roles, Business Roles, and Organization Roles.</p>
+    <p>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/IT_Roles.xml">IT Roles XML</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Business_Roles.xml">Business Roles XML</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Organization_Roles.xml">Organization Roles XML</a>
+    </p>
+  </div>
+
+  <div class="module">
+    <h3><i class="fas fa-user-plus"></i> Joiner–Mover–Leaver (JML)</h3>
+    <p>Lifecycle scenarios for onboarding, department transfer, and termination.</p>
+    <p>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/SailPoint_JML_Simulation.xlsx">JML Simulation Excel</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/SailPoint_JML_IdentitySimulation.xml">JML Simulation XML</a>
+    </p>
+  </div>
+
+  <div class="module">
+    <h3><i class="fas fa-tasks"></i> Provisioning & Workflows</h3>
+    <p>Automated provisioning policies and approval workflows for access management.</p>
+    <p>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Provisioning_Policies.xml">Provisioning Policies</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Approval_Workflows.xml">Approval Workflows</a>
+    </p>
+  </div>
+
+  <div class="module">
+    <h3><i class="fas fa-database"></i> Aggregation & Identity Refresh</h3>
+    <p>Scheduled tasks to refresh identities and aggregate AD/application entitlements.</p>
+    <p>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Identity_Refresh_Task.xml">Identity Refresh Task</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Entitlement_Aggregation_Task.xml">Entitlement Aggregation Task</a>
+    </p>
+  </div>
+
+  <div class="module">
+    <h3><i class="fas fa-project-diagram"></i> Mapping & Implementation Plan</h3>
+    <p>AD/app role mappings, Gantt chart, and Excel matrix for operational execution.</p>
+    <p>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/SailPoint_AD_App_Role_Mapping.xlsx">Role Mapping</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/SailPoint_Role_Model_Gantt.png">Gantt Chart</a><br>
+      - <a href="https://github.com/amrdodani/sailpoint-hospital-rbac-lab/blob/master/Hospital_Role_Model_Expanded.xlsx">Role Model Matrix</a>
+    </p>
   </div>
 </section>
 
 <footer>
-  Created by <a href="https://github.com/amrdodani" target="_blank">Amr Dodani</a> – GitHub Pages | © 2025
+  Created by <a href="https://github.com/amrdodani" target="_blank">Amr Dodani</a> | Hosted with GitHub Pages © 2025
 </footer>
 
 </body>
